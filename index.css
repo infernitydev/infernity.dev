@@ -10,4 +10,26 @@ body {
   background-color: #092222;
   color: white;
   font-family: atkinson_hyperlegible;
+  text-align: center;
+}
+
+h1 {
+  line-height: 2em;
+  font-size: 36pt
+}
+
+.infernitydev-color {
+  color: #55ffff
+}
+
+.whirl-color {
+  color: #007573
+}
+
+.digi-color {
+  color: #2ADF7B
+}
+
+#verylongdiv {
+  height: 200lvh
 }
