@@ -28,13 +28,8 @@ class NavBar extends HTMLElement {
 		spacer.classList.add('navbar-spacer');
 		this.insertAdjacentElement('afterend', spacer);
 	  
-		const init = () => {
-		  // Force reflow to get correct offsetHeight
-		  const height = nav.offsetHeight;
-		  spacer.style.height = height + 'px';
-		};
-	  
-		link.addEventListener('load', init);
+		const height = nav.offsetHeight;
+		spacer.style.height = height + 'px';
 	  }
 	  
 }
