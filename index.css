@@ -35,3 +35,15 @@ h1 {
 #verylongdiv {
   height: 200lvh
 }
+
+ul {
+  list-style-position: inside;
+}
+
+a:link {
+  color: #50FFFF;
+}
+
+a:visited {
+  color: #9070FF;
+}
